@@ -206,8 +206,8 @@ ul.ul{
 
 .about-img img {
   padding: bottom 20%;
-  max-width: 630px;
-  height: auto;
+  max-width: 500px;
+  height: 1000px;
   width: 100%;
   border-radius: 8px;
 }
@@ -248,7 +248,7 @@ ul.ul{
 .containers .box {
   /* margin-left: 50px; */
   position: relative;
-  width: 420px;
+  width: 350px;
   height: 380px;
   background: #444;
   margin: 0 20px;
@@ -306,7 +306,7 @@ ul.ul{
 }
 
 .containers .box:hover img {
-  height: 500px;
+  height: 400px;
 }
 
 .service-section {
@@ -492,25 +492,25 @@ section {
 }
 
 .progress-line.javascript span {
-  width: 60%;
+  width: 80%;
 }
 
 .progress-line.nodejs span {
-  width: 50%;
+  width: 95%;
 }
 
-/* .progress-line.mysql span
+.progress-line.mysql span
 {
-width: 20%;
+width: 90%;
 
-} */
+}
 
 .progress-line.mongodb span {
-  width: 30%;
+  width: 85%;
 }
 
 .progress-line.typescript span {
-  width: 40%;
+  width: 70%;
 }
 
 .progress-line span::after {
@@ -531,23 +531,23 @@ width: 20%;
 }
 
 .progress-line.javascript span::after {
-  content: "60%";
+  content: "80%";
 }
 
 .progress-line.nodejs span::after {
-  content: "50%";
+  content: "95%";
 }
 
-/* .progress-line.mysql span::after
+.progress-line.mysql span::after
 {
-    content: "20%";
-} */
+    content: "90%";
+}
 .progress-line.mongodb span::after {
-  content: "30%";
+  content: "85%";
 }
 
 .progress-line.typescript span::after {
-  content: "40%";
+  content: "90%";
 }
 
 .progress-line span::before {
@@ -641,19 +641,19 @@ width: 20%;
 
 @keyframes animate-path1 {
   100% {
-    stroke-dashoffset: 125;
+    stroke-dashoffset: 30;
   }
 }
 
 @keyframes animate-path2 {
   100% {
-    stroke-dashoffset: 125;
+    stroke-dashoffset: 55;
   }
 }
 
 @keyframes animate-path3 {
   100% {
-    stroke-dashoffset: 125;
+    stroke-dashoffset: 40;
   }
 }
 
